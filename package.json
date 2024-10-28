@@ -1,14 +1,14 @@
 {
   "name": "project",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.6.3"
   },
   "dependencies": {
-    "snarkjs": "^0.7.5"
+    "snarkjs": "^0.7.5",
+    "ts-node": "^10.9.2"
   }
 }
